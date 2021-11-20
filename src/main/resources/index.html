@@ -12,13 +12,25 @@
     <title>kotlin-js</title>
 </head>
 <body>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">Kotlin/JS Workspace</a>
+        </div>
+    </nav>
     <div class="container-md">
-        <h1>
-            使いづらい計算機
-        </h1>
+        <div id="title">
+            <div class="row text-center my-3 row-cols-1">
+                <h1>Kotlin/JS の練習</h1>
+                <h4>~Bootstrap5を添えて~</h4>
+            </div>
+        </div>
 
+        <div id="better-calc" class="sep">
+            <div class="align-middle">
+                <h2>いい感じにまとまってる計算機</h2>
+            </div>
+        </div>
         <div class="shadow p-3 mb-5 bg-white rounded">
-            <h2>いい感じにまとまってる計算機</h2>
             <div class="row row-cols-1">
                 <div class="input-group mb-3">
                     <span class="input-group-text bg-light">数値1</span>
@@ -48,8 +60,13 @@
             </div>
         </div>
 
+        <div id="separate-calc" class="sep">
+            <div class="align-middle">
+                <h2>入力欄と表示欄が別れてる計算機</h2>
+            </div>
+        </div>
+        
         <div class="shadow p-3 mb-5 bg-white rounded">
-            <h2>入力欄と表示欄が別れてる計算機</h2>
             <div class="row row-cols-1">
                 <div class="input-group mb-3">
                     <span class="input-group-text bg-light">数値1</span>
@@ -91,6 +108,16 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div id="worthless" class="sep">
+            <div class="align-middle">
+                <h2>とくに意味もないゾーン</h2>
+            </div>
+        </div>
+        <div class="shadow p-3 mb-5 bg-white rounded">
+            <h3>- これは、ページの長さを決める枠である。</h3>
+            <p>この文章は全く意味ありません。</p>
+            <p>ただ、この部分を最後に消すのを忘れないようにしてください。</p>
         </div>
     </div>
     <script src="kotlin-js.js"></script>

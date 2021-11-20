@@ -1,3 +1,28 @@
+/* スクロールの幅の設定 */
+html::-webkit-scrollbar {
+width: 8px;
+height: 8px;
+}
+
+/* スクロールの背景の設定 */
+html::-webkit-scrollbar-track {
+/* border-radius: 5px; */
+box-shadow: 0 0 4px #aaa inset;
+}
+
+/* スクロールのつまみ部分の設定 */
+html::-webkit-scrollbar-thumb {
+/* border-radius: 5px; */
+background: #393a3a;
+}
+
 body{
     font-family: 'Noto Sans JP', sans-serif;
+}
+
+.sep{
+    border-left: 5px solid;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
