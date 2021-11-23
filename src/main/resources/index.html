@@ -25,56 +25,69 @@
             </div>
         </div>
 
-        <div id="better-calc" class="sep">
-            <div class="align-middle">
-                <h2>いい感じにまとまってる計算機</h2>
-            </div>
-        </div>
         <div class="shadow p-3 mb-5 bg-white rounded">
-            <div class="row row-cols-1">
-                <div class="input-group mb-3">
-                    <span class="input-group-text bg-light">数値1</span>
-                    <label for="number3"></label><input type="number" id="number3" class="form-control" placeholder="数値を入力してください">
+            <div class="row g-3">
+                <div class="col-12">
+                    <div id="better-calc" class="sep">
+                        <div class="align-middle">
+                            <h2>いい感じにまとまってる計算機</h2>
+                        </div>
+                    </div>
                 </div>
-                <div class="input-group mb-3">
-                    <span class="input-group-text bg-light">数値2</span>
-                    <label for="number4"></label><input type="number" id="number4" class="form-control" placeholder="数値を入力してください">
+                <div class="col-12">
+                    <div class="input-group mb-3">
+                        <span class="input-group-text bg-light">数値1</span>
+                        <label for="number3"></label><input type="number" id="number3" class="form-control" placeholder="数値を入力してください">
+                    </div>
                 </div>
-            </div>
-            <div class="row row-cols-1 gy-3">
-                <div class="input-group">
-                    <select class="form-select" id="operator" aria-label="演算子の選択">
-                        <option value="0" selected>演算子を選択</option>
-                        <option value="add">+ (足し算)</option>
-                        <option value="sub">- (引き算)</option>
-                        <option value="mul">x (掛け算)</option>
-                        <option value="div">÷ (割り算)</option>
-                    </select>
-                    <button class="btn btn-outline-secondary" type="button" id="calc">計算する</button>
+                <div class="col-12">
+                    <div class="input-group mb-3">
+                        <span class="input-group-text bg-light">数値2</span>
+                        <label for="number4"></label><input type="number" id="number4" class="form-control" placeholder="数値を入力してください">
+                    </div>
                 </div>
-                <div class="input-group input-group-lg">
-                    <span class="input-group-text">計算結果</span>
-                    <label for="result"></label><input readonly class="form-control" aria-describedby="inputGroup-sizing-lg" id="result"
-                                                       placeholder="結果が表示されます">
+                <div class="col-12">
+                    <div class="input-group">
+                        <select class="form-select" id="operator" aria-label="演算子の選択">
+                            <option value="0" selected>演算子を選択</option>
+                            <option value="add">+ (足し算)</option>
+                            <option value="sub">- (引き算)</option>
+                            <option value="mul">x (掛け算)</option>
+                            <option value="div">÷ (割り算)</option>
+                        </select>
+                        <button class="btn btn-outline-secondary" type="button" id="calc">計算する</button>
+                    </div>
                 </div>
-            </div>
-        </div>
-
-        <div id="separate-calc" class="sep">
-            <div class="align-middle">
-                <h2>入力欄と表示欄が別れてる計算機</h2>
+                <div class="col-12">
+                    <div class="input-group input-group-lg">
+                        <span class="input-group-text">計算結果</span>
+                        <label for="result"></label><input readonly class="form-control" aria-describedby="inputGroup-sizing-lg" id="result"
+                            placeholder="結果が表示されます">
+                    </div>
+                </div>
             </div>
         </div>
         
         <div class="shadow p-3 mb-5 bg-white rounded">
-            <div class="row row-cols-1">
-                <div class="input-group mb-3">
-                    <span class="input-group-text bg-light">数値1</span>
-                    <label for="number1"></label><input type="number" id="number1" class="form-control" placeholder="数値を入力してください">
+            <div class="row g-3">
+                <div class="col-12">
+                    <div id="separate-calc" class="sep">
+                        <div class="align-middle">
+                            <h2>入力欄と表示欄が別れてる計算機</h2>
+                        </div>
+                    </div>
                 </div>
-                <div class="input-group mb-3">
-                    <span class="input-group-text bg-light">数値2</span>
-                    <label for="number2"></label><input type="number" id="number2" class="form-control" placeholder="数値を入力してください">
+                <div class="col-12">
+                    <div class="input-group mb-3">
+                        <span class="input-group-text bg-light">数値1</span>
+                        <label for="number1"></label><input type="number" id="number1" class="form-control" placeholder="数値を入力してください">
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="input-group mb-3">
+                        <span class="input-group-text bg-light">数値2</span>
+                        <label for="number2"></label><input type="number" id="number2" class="form-control" placeholder="数値を入力してください">
+                    </div>
                 </div>
             </div>
         <!-- </div>
@@ -109,15 +122,46 @@
                 </div>
             </div>
         </div>
-        <div id="worthless" class="sep">
-            <div class="align-middle">
-                <h2>とくに意味もないゾーン</h2>
-            </div>
-        </div>
+        
         <div class="shadow p-3 mb-5 bg-white rounded">
+            <div id="worthless" class="sep">
+                <div class="align-middle">
+                    <h2>とくに意味もないゾーン</h2>
+                </div>
+            </div>
             <h3>- これは、ページの長さを決める枠である。</h3>
             <p>この文章は全く意味ありません。</p>
             <p>ただ、この部分を最後に消すのを忘れないようにしてください。</p>
+        </div>
+
+        <div class="shadow p-3 mb-5 bg-white rounded">
+            <div class="row row-cols-1">
+                <div class="col">
+                    <div id="hash" class="sep">
+                        <div class="align-middle">
+                            <h2>ハッシュ化してぇ^～</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="input-group mb-3">
+                        <span class="input-group-text bg-light">文字列</span>
+                        <label for="Plain-String"></label><input type="text" id="Plain-String" class="form-control" placeholder="ハッシュ化したい文字列を入力してください">
+                    </div>
+                </div>
+            </div>
+            <div class="row g-3">
+                <div class="col">
+                    <button id="generate" type="button" class="btn btn-outline-primary">ハッシュ化</button>
+                </div>
+                <div class="col-12">
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">成果物</span>
+                        <label for="result-subtract"></label><label for="Hashed-String"></label><input id="Hashed-String" class="form-control bg-white" readonly
+                                                                                                       placeholder="結果が表示されます">
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <script src="kotlin-js.js"></script>

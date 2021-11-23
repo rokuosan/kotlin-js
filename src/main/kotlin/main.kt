@@ -2,19 +2,15 @@ import kotlinx.browser.document
 import org.w3c.dom.HTMLButtonElement
 import org.w3c.dom.HTMLInputElement
 import org.w3c.dom.HTMLSelectElement
-import org.w3c.dom.get
 
 fun main() {
+    // 分離してる計算機
     val number1 = document.getElementById("number1") as HTMLInputElement
     val number2 = document.getElementById("number2") as HTMLInputElement
-    // 足し算
     val add = document.getElementById("add") as HTMLButtonElement
     val addResult = document.getElementById("result-add") as HTMLInputElement
-    // 引き算
     val subtractResult = document.getElementById("result-subtract") as HTMLInputElement
-    // 掛け算
     val multiplyResult = document.getElementById("result-multiply") as HTMLInputElement
-    // 割り算
     val divideResult = document.getElementById("result-divide") as HTMLInputElement
 
     add.addEventListener("click", {
@@ -31,6 +27,7 @@ fun main() {
         }
     })
 
+    // 演算子を選択する計算機
     val number3 = document.getElementById("number3") as HTMLInputElement
     val number4 = document.getElementById("number4") as HTMLInputElement
     val result = document.getElementById("result") as HTMLInputElement
